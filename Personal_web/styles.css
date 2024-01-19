@@ -1,0 +1,129 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light Grey background */
+    color: #333; /* Dark text on light background */
+}
+
+header {
+    background-image: url('cool-background.png'); /* Replace with your transparent image path */
+    background-size: cover;
+    background-position: center;
+    color: #00bfff; /* Electric Blue */
+    text-align: center;
+    padding: 50px;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header, nav {
+    background-color: #333; /* Dark background for header and nav */
+    color: #fff; /* White text on dark background */
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #66c2ff; /* Neon Blue */
+}
+
+header p {
+    font-size: 1em;
+    color: #99d6ff; /* Lighter Neon Blue for text in header */
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Add some padding to the body to compensate for the fixed position */
+body {
+    padding-top: 50px; /* Adjust this value based on your navigation bar height */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    font-size: 1em;
+    color: #66c2ff; /* Neon Blue */
+    text-decoration: none;
+}
+
+#landing {
+    text-align: center;
+    padding: 2em 0;
+}
+
+#landing img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+section {
+    background-color: #fff; /* White background */
+    color: #333; /* Dark text on light background */
+    padding: 2em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 2em;
+    color: #66c2ff; /* Neon Blue */
+}
+
+.card, .github-card {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9; /* Light Grey background for cards */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #66c2ff; /* Neon Blue */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #3385ff; /* Darker Neon Blue on hover */
+}
+
+footer {
+    background-color: #333; /* Dark background */
+    color: #99d6ff; /* Light Neon Blue for text in footer */
+    text-align: center;
+    padding: 1em 0;
+    border-top: 2p
